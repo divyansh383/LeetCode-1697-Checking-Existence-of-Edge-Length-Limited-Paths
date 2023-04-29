@@ -28,7 +28,7 @@ The time complexity of this approach is O((E+Q)log(E)), where E is the number of
  The space complexity is O(N), where N is the number of nodes, because we need to create a disjoint set data structure with N nodes.
 
 # Code
-```
+```java
 class disjointSet{
     int[] set;
     int[] rank;
